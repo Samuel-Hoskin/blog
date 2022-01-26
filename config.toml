@@ -5,9 +5,9 @@ title = 'Blog'
 theme = "anatole"
 
 [params]
-title = "I'm Sam 👋"
+title = "Sam's World 🌍"
 author = "Samuel Hoskin"
-description = "ThiA weekly insight to my thoughts around work (and the random tangent)"
+description = "Welcome to my blog where I hope to post weeknotes, ideas and random tangent thoughts."
 profilePicture = "images/profile.jpg"
 
 #dates
