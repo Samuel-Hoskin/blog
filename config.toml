@@ -1,0 +1,60 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-GB'
+title = 'Blog'
+
+theme = "anatole"
+
+[params]
+title = "I'm Sam 👋"
+author = "Samuel Hoskin"
+description = "ThiA weekly insight to my thoughts around work (and the random tangent)"
+profilePicture = "images/profile.jpg"
+
+#dates
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+
+#social
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/Samuel_Hoskin"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/Samuel-Hoskin"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/samuel-hoskin/"
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about-me/"
+
+  [[menu.main]]
+  name = "Projects"
+  weight = 400
+  identifier = "projects"
+  url = "/Projects/"
